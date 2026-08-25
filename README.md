@@ -102,10 +102,4 @@ Total Pay
 = Working Day Pay + Birthday Bonus
 ```
 
----
 
-## Author
-
-Tan Tuck Kiat
-
-MAHB .NET Developer Assessment
