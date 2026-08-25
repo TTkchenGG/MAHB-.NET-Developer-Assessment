@@ -56,6 +56,26 @@ The application allows users to manage employee information and calculate payrol
 - Vite
 
 ---
+## Database Setup
+
+1. Create a SQL Server database.
+2. Run the provided SQL script in 'Database/Init.sql' to create the required tables.
+3. Update the connection string in:
+
+```text
+CDN.Payroll.API/appsettings.json
+```
+
+Example:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Your SQL Server Connection String"
+  }
+}
+```
+---
 
 ## Running the Backend
 
